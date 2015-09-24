@@ -90,7 +90,6 @@ my_slideshowActive = false;
 // function callback onmouseenter, stop slideshow, show pause-indicator
 function superbgimage_mouseenter(img) {
 
-	// stop the pausing, Andreas Meyer 22.10.2013
 	return;
 	if ($.superbg_slideshowActive) {
 		my_slideshowActive = true;
